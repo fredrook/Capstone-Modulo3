@@ -19,13 +19,17 @@
             <div class="container__landing--welcomeFormBox">
                 <h2 class="container__landing--welcomeFormTitle">Login</h2>
                 <form method="post" name="loginForm" class="container__landing--welcomeForm">
-                    <label for="username" class="container__landing--formLabel">Usuário</label>
-                    <input type="text" name="username" id="username" placeholder="julia@silva" class="container__landing--formInput">
+                    <div>
+                        <label for="username" class="container__landing--formLabel">Usuário</label>
+                        <input type="text" name="username" id="username" placeholder="julia@silva" class="container__landing--formInput">
+                    </div>
+                    
+                    <div>
+                        <label for="password" class="container__landing--formLabel"></label>
+                        <input type="password" name="password" id="password" placeholder="Digitar minha senha" class="container__landing--formInput">
+                    </div>  
 
-                    <label for="password" class="container__landing--formLabel"></label>
-                    <input type="password" name="password" id="password" placeholder="Digitar minha senha" class="container__landing--formInput">
-
-                    <input type="submit" value="Entrar">
+                    <button type="button"><img src="./src/assets/icons8-entrar-60.png" alt="">Entrar</button>
                 </form>
             </div>
         </div>
