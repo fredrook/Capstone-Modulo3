@@ -5,4 +5,105 @@
     --pureWhite: 255, 255, 255;             /* #FFFFFF */
     --fontColorGrey: 33, 37, 41;            /* #212529 */
     --fontColorLightWhite: 233, 236, 239;   /* #E9ECEF */
+    --inputGreyBackground: 241, 243, 245;   /* #F1F3F5 */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__landing {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.container__landing--welcomeMessageBox {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 5% 17% 5%;
+    background: rgb(var(--kenzieDarkBlue));
+    color: rgb(var(--pureWhite));
+}
+
+.container__landing--welcomeTitle {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.container__landing--welcomeSubTitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.container__landing--welcomeAdvice {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(var(--fontColorLightWhite))
+}
+
+.container__landing--welcomeFormBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 5%;
+}
+
+.container__landing--welcomeForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    gap: 1rem;
+}
+
+.container__landing--welcomeFormTitle {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.container__landing--welcomeForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__landing--welcomeForm div > input {
+    background: rgb(var(--inputGreyBackground));
+    border: none;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.container__landing--welcomeForm div > input:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(var(--kenzieLightBlue), 0.7);
+}
+
+.container__landing--welcomeForm button {
+    background: rgb(var(--kenzieLightBlue));
+    color: rgb(var(--pureWhite));
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
