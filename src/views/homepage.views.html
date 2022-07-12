@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/homepage.style.css">
     <title>Kenzie Habit</title>
 </head>
+
 <body>
-    
+
+    <header id="header">
+        <h1 id="titleHeader" class="titleHeader">KenzieHabit</h1>
+        <figure>
+            <img id="userImgHeader" class="userImg" src="../assets/user.png" alt="Avatar do Usuário">
+            <figcaption hidden>Avatar do Usuário</figcaption>
+        </figure>
+    </header>
+    <main id="main">
+        <section id="sectionUser">
+            <figure>
+                <img id="userImgSection" class="userImg" src="../assets/user.png" alt="Avatar do Usuário">
+                <figcaption hidden>Avatar do Usuário</figcaption>
+            </figure>
+            <h2 id="userId">Júlia Silva Camargo</h2>
+        </section>
+        <section id="sectionContainer" class="conatiner">
+            <div id="divTitleContainer">
+                <div id="divTitleTasks">
+                    <h2 id="titleTasks">Terefas</h2>
+                </div>
+                <div id="divTasksButtons">
+                    <button class="buttonNoDecoration">Todos</button>
+                    <button class="buttonNoDecoration">Concluídos</button>
+                    <button class="buttonDecoration">Criar</button>
+                </div>
+            </div>
+
+            <div id="divConatiner">
+
+                <table id="tableTasks">
+                    <tr id="headerTable">
+                        <td class="trHeader">
+                            <h4>Status</h4>
+                        </td>
+                        <td class="trHeader">
+                            <h4>Título</h4>
+                        </td>
+                        <td class="trHeader">
+                            <h4>Descrição</h4>
+                        </td>
+                        <td class="trHeader">
+                            <h4>Categoria</h4>
+                        </td>
+                        <td class="trHeader">
+                            <h4>Editar</h4>
+                        </td>
+                    </tr>
+                    <tr class="mainTable" id="1">
+                        <td class="trMain">
+                            <input type="checkbox" name="checkbox" id="1" class="checkbox">
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Fazer exercícios segunda pela manhã</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Ir correr na praça próximo de csa</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textCategTasks">Saúde</h5>
+                        </td>
+                        <td class="trMain">
+                            <Button class="buttonEdit">...</Button>
+                        </td>
+                    </tr>
+                    <tr class="mainTable" id="2">
+                        <td class="trMain">
+                            <input type="checkbox" name="checkbox" id="2" class="checkbox">
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Acessar conteúdo do assunto da semana anterior</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Esse hábito tem como objetivo</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textCategTasks">Estudos</h5>
+                        </td>
+                        <td class="trMain">
+                            <Button class="buttonEdit">...</Button>
+                        </td>
+                    </tr>
+                    <tr class="mainTable" id="3">
+                        <td class="trMain">
+                            <input type="checkbox" name="checkbox" id="3" class="checkbox" checked>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks"><s>Varrer o quarto antes de trabalhar</s></h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Ir correr na praça próximo de csa</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textCategTasks">Casa</h5>
+                        </td>
+                        <td class="trMain">
+                            <Button class="buttonEdit">...</Button>
+                        </td>
+                    </tr>
+                    <tr class="mainTable" id="4">
+                        <td class="trMain">
+                            <input type="checkbox" name="checkbox" id="4" class="checkbox" checked>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks"><s>Pedir relatório de feedback após duas semanas</s></h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">A importância desse tarefa </h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textCategTasks">Trabalho</h5>
+                        </td>
+                        <td class="trMain">
+                            <Button class="buttonEdit">...</Button>
+                        </td>
+                    </tr>
+                    <tr class="mainTable" id="5">
+                        <td class="trMain">
+                            <input type="checkbox" name="checkbox" id="5" class="checkbox">
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Ir ao psicólogo nas terças feiras</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textTasks">Manter a consistência nas consuktl</h5>
+                        </td>
+                        <td class="trMain">
+                            <h5 class="textCategTasks">Saúde</h5>
+                        </td>
+                        <td class="trMain">
+                            <Button class="buttonEdit">...</Button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div id="buttonLoadTable">
+                <button class="buttonDecoration">Carregar mais</button>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

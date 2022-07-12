@@ -1,0 +1,60 @@
+:root {
+    --kenzieDarkBlue: 65, 80, 210;
+    /* #4150D2 */
+    --kenzieLightBlue: 65, 90, 243;
+    /* #415AF3 */
+    --pureWhite: 255, 255, 255;
+    /* #FFFFFF */
+    --fontColorGrey: 33, 37, 41;
+    /* #212529 */
+    --fontColorLightWhite: 233, 236, 239;
+    /* #E9ECEF */
+}
+
+figcaption {
+    display: none;
+}
+
+#header {
+    width: 65%;
+    margin: 1rem 10rem 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+#titleHeader {
+    font-size: 27px;
+    color: #415AF3;
+}
+
+.userImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+
+}
+
+#sectionUser {
+    display: flex;
+    justify-content: center;
+    margin-right: 60%;
+}
+
+#userId {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#userImgSection {
+    width: 60px;
+    height: 60px;
+    border-radius: 2rem;
+}
+
+#sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
