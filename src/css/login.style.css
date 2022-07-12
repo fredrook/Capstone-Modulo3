@@ -1,0 +1,8 @@
+/* Cores: usar com RGB ou RGBA */
+:root {
+    --kenzieDarkBlue: 65, 80, 210;          /* #4150D2 */
+    --kenzieLightBlue: 65, 90, 243;         /* #415AF3 */
+    --pureWhite: 255, 255, 255;             /* #FFFFFF */
+    --fontColorGrey: 33, 37, 41;            /* #212529 */
+    --fontColorLightWhite: 233, 236, 239;   /* #E9ECEF */
+}
